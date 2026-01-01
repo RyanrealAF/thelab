@@ -1,11 +1,41 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The Invisible Prison - A forensic documentation of structural malice and the Inversion Doctrine">
+    <meta name="theme-color" content="#09090b">
     <title>The Invisible Prison</title>
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>=Õ</text></svg>">
     <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            animation: {
+              'in': 'fadeIn 0.5s ease-out',
+              'fade-in': 'fadeIn 0.5s ease-out',
+              'slide-in-from-bottom-4': 'slideInFromBottom 0.5s ease-out',
+              'zoom-in-95': 'zoomIn 0.2s ease-out',
+            },
+            keyframes: {
+              fadeIn: {
+                '0%': { opacity: '0' },
+                '100%': { opacity: '1' },
+              },
+              slideInFromBottom: {
+                '0%': { opacity: '0', transform: 'translateY(1rem)' },
+                '100%': { opacity: '1', transform: 'translateY(0)' },
+              },
+              zoomIn: {
+                '0%': { opacity: '0', transform: 'scale(0.95)' },
+                '100%': { opacity: '1', transform: 'scale(1)' },
+              },
+            },
+          },
+        },
+      }
+    </script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;700&family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
     <style>
         body {
@@ -18,7 +48,7 @@
             line-height: 1.75;
         }
         .serif-title {
-            font-family: 'Playfair+Display', serif;
+            font-family: 'Playfair Display', serif;
         }
         .mono-ui {
             font-family: 'JetBrains Mono', monospace;
@@ -36,24 +66,13 @@
         ::-webkit-scrollbar-thumb:hover {
             background: #3f3f46;
         }
+        .animate-in {
+            animation: fadeIn 0.5s ease-out, slideInFromBottom 0.5s ease-out;
+        }
     </style>
-<script type="importmap">
-{
-  "imports": {
-    "react": "https://esm.sh/react@19.0.0",
-    "react-dom": "https://esm.sh/react-dom@19.0.0",
-    "react-dom/client": "https://esm.sh/react-dom@19.0.0/client",
-    "lucide-react": "https://esm.sh/lucide-react@0.468.0",
-    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
-    "react/": "https://esm.sh/react@^19.2.3/"
-  }
-}
-</script>
-<link rel="stylesheet" href="/index.css">
 </head>
 <body>
     <div id="root"></div>
-    <script type="module" src="index.tsx"></script>
-<script type="module" src="/index.tsx"></script>
+    <script type="module" src="/index.tsx"></script>
 </body>
 </html>
