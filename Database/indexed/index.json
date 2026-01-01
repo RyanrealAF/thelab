@@ -38,5 +38,21 @@
     "tags": ["forensic analysis", "psychological warfare", "cognitive degradation", "decision-making impairment", "psychological attrition", "trauma-based attacks", "gaslighting", "amygdala hijack"],
     "path": "Database/processed/forensic-analysis-systematic-psychological-warfare.txt",
     "summary": "This analysis examines the erosion of cognitive integrity in systematic psychological warfare, detailing mechanisms of psychological attrition, trauma-based attacks, gaslighting, and their clinical consequences analogous to C-PTSD, along with counter-offensive strategies for resilience."
+  },
+  {
+    "id": "psychological-warfare-manual",
+    "title": "Psychological Warfare Manual",
+    "category": "Tactical Manual",
+    "tags": ["psychological warfare", "non-kinetic maneuver", "HUMINT network", "plausible deniability", "psychological attrition", "gaslighting", "reputation assassination", "counter-offensive doctrine"],
+    "path": "Database/processed/psychological-warfare-manual.txt",
+    "summary": "This manual serves as a comprehensive tactical guide for understanding, analyzing, and countering sophisticated psychological warfare operations, detailing the doctrine of non-kinetic maneuver, HUMINT network structures, operational tactics, and strategic defenses."
+  },
+  {
+    "id": "neurobiological-sequelae-distributed-psychological-warfare",
+    "title": "The Neurobiological Sequelae of Distributed Psychological Warfare: Analysis of Functional and Cognitive Collapse in a Case of Environmental Coercive Control",
+    "category": "Forensic Methodology",
+    "tags": ["psychological warfare", "neurobiological sequelae", "cognitive collapse", "environmental coercive control", "distributed assault", "HPA axis", "C-PTSD", "learned helplessness"],
+    "path": "Database/processed/neurobiological-sequelae-distributed-psychological-warfare.txt",
+    "summary": "This expert report analyzes the neurobiological effects of a four-year campaign of environmental coercive control, detailing mechanisms of sanctuary destruction, goal-blockade, and chemical coercion, their impact on HPA axis dysfunction, cognitive impairment, and C-PTSD development, with implications for intervention and societal control."
   }
 ]
