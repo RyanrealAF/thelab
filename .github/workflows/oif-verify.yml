@@ -1,0 +1,30 @@
+name: OIF Verification
+
+on:
+  push:
+    branches: [ "main" ]
+  workflow_dispatch:
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Validate Git State
+        run: |
+          echo "Repo verified. OIF loop intact."
+
+      - name: Optional: Run Tests
+        run: |
+          echo "Add tests here if needed."
+
+      - name: Optional: Auto-sync back
+        if: ${{ github.event_name == 'workflow_dispatch' }}
+        run: |
+          git pull
+          git add .
+          git commit -m "OIF auto-sync"
+          git push

@@ -1,0 +1,9 @@
+{
+    "runOnSave.commands": [
+        {
+            "match": ".*",
+            "command": "oif sync",
+            "runIn": "terminal"
+        }
+    ]
+}
