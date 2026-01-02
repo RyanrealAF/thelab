@@ -1,0 +1,8 @@
+{
+  "name": "thelab-workspace",
+  "private": true,
+  "workspaces": [
+    "openprison"
+  ],
+  "devDependencies": {}
+}
